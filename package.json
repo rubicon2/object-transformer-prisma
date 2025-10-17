@@ -40,5 +40,10 @@
     "globals": "^16.4.0",
     "prettier": "^3.6.2",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@rubicon2/deep-merge": "^1.1.1",
+    "@rubicon2/object-transformer": "^1.0.0",
+    "path-to-nested-obj": "^1.0.0"
   }
 }
