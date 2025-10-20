@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:18.0-alpine
+    restart: always
+    environment:
+      - POSTGRES_DB=test
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      # Expose for integration tests on a different port from 5432, as postgres daemon already runs on that.
+      - '5433:5432'
