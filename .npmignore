@@ -146,3 +146,8 @@ vite.config.ts.timestamp-*
 .prettierrc
 *.config.*
 package-lock.json
+
+# Prisma used for integration testing.
+tests/
+prisma/
+/generated/prisma
